@@ -1,6 +1,12 @@
 # pixiv-save
 save pixiv user illusts
 
+## install 
+
+`pip install pixiv-save`
+
+## usage
+
 ```shell
 usage: pixivsave.py [-h] [-u USERID] [-t TOKEN] [-p PROXY] [-d DOWNLOADTO] [-s] [-c]
 
