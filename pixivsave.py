@@ -81,8 +81,8 @@ def get_user_all_illusts(user_id,refresh_token,path_download='./download',proxy=
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-u','--userid',type=int,help='pixiv userid which you want to download pictures from.')
-    parser.add_argument('-t','--token',help='your pixiv refresh token.once you run this program,it will be saved in config.json file.you dont need to input it last time.',type=str)
-    parser.add_argument('-p','--proxy',help='proxy like 127.0.0.1:7890.once you run this program,it will be saved in config.json file.you dont need to input it last time.',type=str)
+    parser.add_argument('-t','--token',help='your pixiv refresh token.',type=str)
+    parser.add_argument('-p','--proxy',help='proxy like 127.0.0.1:7890.',type=str)
     parser.add_argument('-d','--downloadto',help='download path.',type=str)
     parser.add_argument('-s','--separate',action='store_true',help='if make directory for every illusts.')
     parser.add_argument('-c','--config',action='store_true',help='load config.json file')

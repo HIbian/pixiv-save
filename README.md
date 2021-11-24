@@ -17,9 +17,9 @@ optional arguments:
   -u USERID, --userid USERID
                         pixiv userid which you want to download pictures from.
   -t TOKEN, --token TOKEN
-                        your pixiv refresh token.once you run this program,it will be saved in config.json file.you dont need to input it last time.
+                        your pixiv refresh token.
   -p PROXY, --proxy PROXY
-                        proxy like 127.0.0.1:7890.once you run this program,it will be saved in config.json file.you dont need to input it last time.
+                        proxy like 127.0.0.1:7890.
   -d DOWNLOADTO, --downloadto DOWNLOADTO
                         download path.
   -s, --separate        if make directory for every illusts.
