@@ -1,0 +1,9 @@
+{
+    "user_id":441342,
+    "refresh_token": "{}",
+    "proxy": {
+        "http": "http://127.0.0.1:7890",
+        "https": "http://127.0.0.1:7890"
+    },
+    "downloadto": "./download"
+}
